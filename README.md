@@ -84,16 +84,12 @@ A `abstração de dados` se concentra nos aspectos essenciais das regras de neg�
 
 > Abstrações de dados são as formas de representar os conceitos implícitos nos requisitos do projeto de banco de dados. Tais requisitos são extraídos do minimundo. Assim, para a modelagem de dados é fundamental o domínio dos construtores semânticos do modelo de dados.
 
-***
-
 MODELO      | GRAU DE ABSTRAÇÃO   | FOCO                                                | INDEPENDÊNCIA
 :---------: | :-----------------: | --------------------------------------------------- | ------------------------
 Externo     | Alto                | Visões dos usuários finais                          | Hardware e Software
 Conceitual  | Média-Alta          | Visão global dos dados (independe do modelo do BD)  | Hardware e Software
 Lógica      | Média-Baixa         | Modelo específico de BD                             | Hardware
 Físico      | Baixo               | Métodos de armazenamento e acesso                   | Nem hardware ou software
-
-***
 
 Quanto maior o grau de abstração, maior o entendimento pelo usuário e maior o nível de detalhes.
 
@@ -172,15 +168,11 @@ A `cardinalidade máxima` occore quando há muitos (0,N) relacionamentos entre a
 
 *Tipos de cardinalidade:*
 
-***
-
 Cardinalidade | Relacionamento                    | Exemplo
 :-----------: | --------------------------------- | ----------------------------
 1:1           | Relacionamento Um-Para-Um         | 1 cliente possui 1 registro
 1:N           | Relacionamento Um-Para-Muitos     | 1 cliente possui N pedidos
 N:N           | Relacionamento Muitos-Para-Muitos | N clientes compram N livros
-
-***
 
 ### **Entidades associativas**
 
