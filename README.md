@@ -74,7 +74,7 @@ Cliente, autora e livro são as entidades.
 - **A autora escreveu o livro**  
 Comprar e escrever são os relacionamentos.
 
-A descrição das regras de negócio é feita a partir da entrevista e a `entrevista` é a base para construir um projeto coerente e que atende às necessidades do cliente.
+A descrição das regras de negócio é feita a partir da `entrevista` é ela a base para construir um projeto coerente e que atende às necessidades do cliente.
 
 ### **Abstração**
 
